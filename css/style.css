@@ -382,6 +382,23 @@ section h2 {
 .provider-info_image img {
 	width: 100%;
 }
+.card-sorter {
+	text-align: center;
+}
+.card-sorter_menu {
+	list-style: none;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	padding-left: 0;
+
+}
+.card-sorter_menu li {
+	display: inline-block;
+	padding: 20px;
+}
+#sorter ul {
+	list-style: none;
+}
 
 /** Datepicker custom styles **/
 .datepicker table tr td.day:hover {

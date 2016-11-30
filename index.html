@@ -16,7 +16,8 @@
   <!-- Bootstrap core CSS and JS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <script src="js/bootstrap.min.js"></script>
-
+  <!-- Other JS -->
+  <script type="text/javascript" src="js/sorter.js"></script>
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -144,7 +145,22 @@
   </section>
   <section class="container card-section">
     <div class="row">
-    <div class="col-md-4 panel-group">
+      <div class="card-sorter">
+        <ul class="card-sorter_menu" id="filter">
+          <li><a href="#" class="current">All</a></li>
+          <li><a href="#" class="cat.1"> Cat. 1</a></li>
+          <li><a href="#" class="cat.2"> Cat. 2</a></li>
+          <li><a href="#" class="cat.3"> Cat. 3</a></li>
+          <li><a href="#" class="cat.4"> Cat. 4</a></li>
+          <li><a href="#" class="cat.5"> Cat. 5</a></li>
+          <li><a href="#" class="cat.6"> Cat. 7</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" id="sorter">
+      <ul>
+        <li>
+    <div class="col-md-4 panel-group cat.1 cat.5">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -154,7 +170,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.2 cat.1 cat.6">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -164,7 +182,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.3 cat.5">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -174,7 +194,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.4 cat.1">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -184,7 +206,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.5">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -194,7 +218,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.6 cat.1 cat.2">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -204,7 +230,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.4 cat.5">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -214,7 +242,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.2 cat.6">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -224,7 +254,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.3 cat.5">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -234,7 +266,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.1 cat.3 cat.5">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -244,7 +278,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.2 cat.4 cat.6">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -254,7 +290,9 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
-    <div class="col-md-4 panel-group">
+    </li>
+    <li>
+    <div class="col-md-4 panel-group cat.6 cat.3">
       <div class="panel panel-default panel_provider-info">
         <div class="panel-heading">Info card header</div>
         <div class="provider-info_image">
@@ -264,6 +302,8 @@
         <div class="panel-footer">Panel Footer</div>
       </div>
     </div>
+    </li>
+    </ul>
   </div>
   </section>
   <!-- Footer -->
