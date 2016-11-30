@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="Rosie Gianforte, LCSW">
+  <meta name="author" content="Rosie Gianforte, LCSW">
+  <link rel="icon" href="favicon.ico">
+  <title>Therapy Huddle</title>
+
+  <!--JQuery -->
+  <script src="js/jquery-1.12.2.min.js"></script>
+
+  <!-- Bootstrap core CSS and JS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Dosis:200,300,500,700,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Cinzel:700,900' rel='stylesheet' type='text/css'>
+
+  <!-- Bootstrap datepicker -->
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script type="text/javascript">
+  $(function () {
+    $("#move-date").datepicker({ 
+      autoclose: true, 
+      clearBtn: true,
+      keyboardNavigation: false,
+      autoclose: true,
+      orientation: "bottom auto"
+    });
+  });
+  </script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script type="text/javascript">
+  $(function () {
+    $("#move-date-mobile").datepicker({ 
+      autoclose: true, 
+      clearBtn: true,
+      keyboardNavigation: false,
+      autoclose: true,
+      orientation: "bottom auto"
+    });
+  });
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <div class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 hidden-xs logo-box"></div>
+        <div class="col-xs-12 col-sm-10 col-md-6 header-text">
+          <h1>Therapy Huddle</h1>
+          <h3 class="subhead">Professional networking for mental health providers</h3>
+        </div>
+        <div class="col-sm-5 col-md-3 hidden-xs hidden-sm phone-box">
+          <p>Sumbit practice info:</p>
+          <span class="phone-number"><p><a href="mailtoinfo@therapyhuddle.com">info@therapyhuddle.com</a></p></span>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Menu for large screens -->
+        <div class="col-xs-12 hidden-xs hidden-sm hidden-md main-menu">
+          <ul class="list-inline">
+            <li class="btn"><a href="index">Home</a></li>
+            <li class="btn"><a href="about">About</a></li>
+          </ul>
+        </div>
+        <!-- Menu for mobile -->
+        <div class="col-xs-12 hidden-sm hidden-md hidden-lg mobile-menu">
+          <a class="btn col-xs-6" data-toggle="collapse" data-target="  #mobile-quote-form">
+            <i class="glyphicon glyphicon-menu-hamburger"></i>
+          </a>
+          <a class="btn col-xs-6" href="tel:1-800-234-5678">
+            <i class="glyphicon glyphicon-earphone"></i>
+          </a>
+        </div>
+        <!-- Menu for tablet  -->
+        <div class="col-xs-12 hidden-xs hidden-lg mobile-menu tablet-menu">
+          <a class="btn col-xs-12" data-toggle="collapse" data-target="#mobile-quote-form"><i class="glyphicon glyphicon-menu-hamburger"></i> Menu</a>
+        </div>
+      </div>
+    </div>    
+  </div ><!-- end of header  -->
+  <!-- Dropdown Menu for mobile (collapsed) -->
+  <div class="mobile-quote hidden-lg collapse" id="mobile-quote-form">
+    <ul class="mobile-menu mobile-dropdown-menu">
+              <li class="btn"><a href="index">Home</a></li>
+              <li class="btn"><a href="about">About</a></li>
+            </ul>
+  </div>
+  <!-- Splash for mobile -->
+  <div class="mobile-splash hidden-md hidden-lg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>###</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Splash section for large screens -->
+  <div class="jumbotron jumbo-splash hidden-xs hidden-sm hidden">
+    <div class="splash-background">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 splash-text">
+            <h2>###</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Info Section -->
+  <section class="container info-section">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>#Welcome message</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Explaining the purpose of Therapy huddle in a short par. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam magna erat, suscipit eget tortor at, ornare convallis diam. Donec ut mauris libero.</p>
+      </div>
+      <div class="col-xs-12">
+        <p>Further explaination and a click cta (if needed). Ut quis sapien ornare, scelerisque lorem in, dignissim nisl. Pellentesque nec urna arcu. Ut sit amet velit fringilla tortor tristique convallis eget vitae ligula. Donec suscipit dui scelerisque, dapibus diam vitae, lacinia magna.</p>
+        <div class="cta-bucket">
+          <a href="mailto:#" class="btn btn-lg cta-button">Email now</a>
+          <a href="tel:7735171661" class="btn btn-lg cta-button hidden-md hidden-lg">Call now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container card-section">
+    <div class="row">
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+    <div class="col-md-4 panel-group">
+      <div class="panel panel-default panel_provider-info">
+        <div class="panel-heading">Info card header</div>
+        <div class="provider-info_image">
+          <img src="images/seal.jpg">
+        </div>
+        <div class="panel-body">This is a card of info. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> <a href="#">Click here</a> if you must click.</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 foot-address hidden-xs">
+          <ul>
+            <li><b>Therapy Huddle</b> is created by</li>
+            <li><b>Chicago Counseling</b></li>
+            <li>1150 N. State Street, #307</li>
+            <li>Chicago, IL 60610</li>
+            <li>312.647.2308</li>
+            <li><a href="http://www.chicagocounseling.com/" target="blank">chicagocounseling.com</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 foot-address foot-address-mobile hidden-sm hidden-md hidden-lg">
+          <ul>
+            <li><b>Therapy Huddle</b> is created by</li>
+            <li><b>Chicago Counseling</b></li>
+            <li>1150 N. State Street, #307</li>
+            <li>Chicago, IL 60610</li>
+            <li>312.647.2308</li>
+            <li><a href="http://www.chicagocounseling.com/" target="blank">chicagocounseling.com</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <ul class="list-inline">
+            <li><a href="index">Home</a></li>
+            <li><a href="about">About</a></li>
+          </ul>
+          <div>
+            <p>© 2016. All Rights Reserved. Chicago Counseling, LLC.</p>
+            <a href="#">Privacy policy</a>
+            <p>-</p>
+            <a href="#">Terms of service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
